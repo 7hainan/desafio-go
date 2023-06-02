@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  golang-chalenge:
+    build: 
+      context: ./hello
+      dockerfile: Dockerfile
+    image: devesteves/desafio-docker-golang
+    container_name: golang-chalenge
